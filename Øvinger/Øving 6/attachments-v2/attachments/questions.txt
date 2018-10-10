@@ -20,3 +20,5 @@ You should still do validation on the server, because you can turn off JavaScrip
 
 
 5. When is it appropriate to use textarea over input ?
+
+When you expect a user to enter multi-line text, e.g. in an application form. 
