@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>A list apart</title>
+    <style type="text/css">
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            margin: 0 0 100px;
+            padding: 25px;
+        }
+
+        footer {
+            background-color: cadetblue;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        ul {
+            padding-left: 40px;
+            /* Using this to indent every ul-element in the list */
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        li:last-child {
+            color: #ff0000;
+            /* Using pseudo class :last-child to select the last child of its parent.*/
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- HTML Validation: UL in UL causes error "ul not allowed as child of element ul in this context"
+
+In order to have a nested list without HTML validation errors I had to declare my sublist had to be declared as list element sorrounded by <li></li>. This causes a double bullet point. Which is unfortunate -->
+
+    <div class="wrapper">
+        <h1>This is a list</h1>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>
+                <ul>
+                    <li>LESS</li>
+                    <li>Sass</li>
+                    <li>SCSS</li>
+                </ul>
+            </li>
+            <li>JavaScript</li>
+            <li>
+                <ul>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>Jquery</li>
+                    <li>AngularJS</li>
+                    <li>Backbone</li>
+                    <li>Ember</li>
+                    <li>Babel</li>
+                </ul>
+            </li>
+
+        </ul>
+
+
+        <section>
+            <h2>Tehverdagen</h2>
+            <p> Behandlingen tebladene gjennomgår etter høsting påvirker smak
+                og utseende, men det påvirker også nivået av koffein og hvilke helseeffekter
+                teen har. Svart te har mest koffein i seg, omtrent halvparten av en normal
+                kaffekopp. Grønn te har halvparten så mye koffein som svart te, og hvit te har
+                nesten ikke noe koffein i seg. Svart te og oolong er oppkvikkende, mens hvit og
+                grønn te er beroligende. Om du har en treg fordøyelse kan både grønn te og
+                svart te sette fortgang i systemet. Te kan virke mot karies og munnsykdommer,
+                det gjelder dog bare om du ikke drikker det med sukker eller honning. Sist, men
+                ikke minst, senker inntak av te blodtrykket.</p>
+
+            <p> Jeg spurte søsteren min om hennes tevaner for å få et inntrykk
+                av hva som passer å drikke når. Her er en kort oppsummering av hennes
+                tehverdag, fortalt av henne.</p>
+        </section>
+        <section>
+            <h2>Te er ikke bare te</h2>
+            <p>Te er ikke te, eller, te er te, men ikke alt du tror er te er
+                te. Den harde sannheten er at te kommer fra planten Camellia sinensis, og gjør
+                den ikke det er det ikke te. «Hva med frukt- og urtete?», tenker du kanskje.
+                Sorry kompis, det er kun infusjon, tørkede frukter og urter blandet med varmt
+                vann!</p>
+
+            <p>Men før du hopper på toget mitt og proklamerer alt som ikke
+                kommer fra den nevnte planten som «ikke ordentlig te», la meg fortelle deg at
+                også te er infusjon, siden det er blandet med vann, men det kommer i hvert fall
+                fra teplanten. Fra Camellia sinensis får vi grønn, hvit, oolong og svart te. De
+                har vidt forskjellige smaker og utseende, til tross for at de kommer fra samme
+                plante. Forskjellen ligger i hvordan de blir behandlet etter at de er høstet,
+                og også når de blir høstet.</p>
+
+            <p>Når det lages svart te blir tebladene delvis tørket, rullet,
+                fermentert (gjæret) og så tørket helt. Grønn te blir først dampet for at den
+                ikke skal gjære, og så blir den rullet og tørket. Oolong te blir fremstilt som
+                sort te, men gjærer kortere. Hvit te plukkes kun to ganger i året, og blir kun
+                tørket. Det er også den dyreste tesorten av de fire.</p>
+
+            <p>Te deles inn i ulike kvaliteter. Den høyeste kvaliteten består
+                av hele blader. Når tebladene knuses, som gjøres for å lage posete, kalles teen
+                for broken. Den laveste kvaliteten av te kalles fannings og dust. Som navnet
+                tilsier er dette de skarve restene som ligger igjen etter at teen er blitt
+                sortert og knust. Teposer du kjøper i dagligvarebutikkene er som regel fannings
+                eller dust. Søsteren min, som er en ihugga tenerd, ser for seg denne kvaliteten
+                som oppsopet fra gulvet etter at teen som er verdt å drikke er blitt sortert.
+                Hun drikker ikke mye posete.</p>
+
+            <p>Det er verdt å merke at fannings av eksklusive teblader
+                riktignok kan være både dyrere og mer smaksrike enn hele blader av billige
+                tevarianter.</p>
+        </section>
+        <footer>
+            <h1>Footer Content</h1>
+            <p> Webtek content blah blah </p>
+
+
+        </footer>
+    </div>
+
+</body>
+</html>

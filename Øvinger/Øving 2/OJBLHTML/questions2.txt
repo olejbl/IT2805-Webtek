@@ -1,0 +1,19 @@
+1. Why does inline style CSS override rules defined in style elements and external stylesheets?
+
+- Because of "Cascading order". It is prioritized in the following order: Inline style (inside the html element), Internal and external style sheets (inside the head section), and lastly the browser defaults.
+
+2. Give a brief example of when to use ID ( #id ) and when to use classes ( .class ) in CSS.
+
+- ID is used to identify only one element, whereas class is used to identify more than one. 
+
+3. What does RGBA mean and what colors can you express with it?
+
+- Red, Green, Blue and Alpha. You can express every colour, and the transparrency of it. 
+
+4. Why do we include CSS files inside the head element and not inside the body element?
+
+- So that it renders as the user enters the webpage. If not, the user may see a blank page before the CSS is loaded. That means the page has to render it two times. 
+
+5. What CSS selector matches all the p elements inside the article element in the following HTML?
+
+- "article > p { } " is the selector that matches the p-elements inside the article. 

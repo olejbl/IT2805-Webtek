@@ -1,0 +1,14 @@
+1) 
+
+The difference between position: absolute, and position: fixed is:
+
+Fixed positioning will not scroll, and is not a part of the websites flow. The fixed element will be positioned relative to the viewport, or the browsers window.  
+A element that is positioned fixed will stay on the same spot on the page. 
+
+Absolute positioning is a type of positioning that lets you place page elements wherever you want it to be placed, using the attributes top, bottom, left and right to set the location. The attributes is relative to the next parent element with relative or absolute positioning. 
+
+2)
+
+You can use the pseudo selector :nth-child() .
+To access the third element, you would write:
+:nth-child(3) { ... }

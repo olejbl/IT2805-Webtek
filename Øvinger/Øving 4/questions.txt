@@ -1,0 +1,18 @@
+1. Why do mobile phones usually ignore auto play on video elements?
+
+    Developers intentionally disable the autoplay feature to protect mobile users from using unneccessary bandwitdh
+
+2. What will the CSS snippet at the end of this section do if the visitor is browsing on a device with 320 x 568 resolution?
+
+    Because the width (568px) is smaller than 768px, and not larger than 1024px, the display will still show. (display: none; wont run)
+
+
+3. Mention some of the advantages of having a single responsive website instead of dedicated versions like m.til.no for mobile and til.no for desktop?
+
+    It is easier to develop and control just one website for all devices instead of two. 
+    
+    The users only have to remember one website, and doesnt have to wait for redirects, which is a con similar to the one in question 1, it used unneccessary bandwidth.
+    
+    
+    
+    

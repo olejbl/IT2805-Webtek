@@ -1,0 +1,12 @@
+body {
+    background-color: lightblue;
+}
+
+p {
+    font-family: "Courier", "Times New Roman", serif;
+}
+
+img {
+    width:150px;
+    border-style: ridge;
+}
